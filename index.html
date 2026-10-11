@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wikipedia, the free encyclopedia</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="vector-header-start">
+        <div class="options">&#9776;</div>
+        <img
+          src="https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-wordmark-en-25.svg"
+          alt=""
+          class="wiki"
+        />
+        <img
+          src="https://en.wikipedia.org/static/images/mobile/copyright/wikipedia-tagline-en-25.svg"
+          alt=""
+          class="yrs"
+        />
+      </div>
+
+      <div class="vector-header-end">
+        <input type="text" placeholder="  &#x1F50D;  Search Wikipedia" />
+        <button style="border-left: 0px">Search</button>
+        <nav class="topnav">
+          <ul>
+            <li><a href="#">Donate</a></li>
+            <li><a href="#">Create account</a></li>
+            <li><a href="#">Log in</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="main-page">
+      <div class="menu-content">
+        <div class="left-menu-content">
+          <ul>
+            <li><a id="mainpage" href="#">Main Page</a></li>
+            <li><a href="#">Talk</a></li>
+          </ul>
+        </div>
+        <div class="right-menu-content">
+          <ul>
+            <li><a id="read" href="#">Read</a></li>
+            <li><a href="#">View Source</a></li>
+            <li><a href="#">View History</a></li>
+            <li id="dots">&vellip;</li>
+          </ul>
+        </div>
+      </div>
+
+      <h1 class="page-title">Main Page</h1>
+
+      <div class="banner">
+        <div class="banner-left">
+          <h2>Welcome to <a href="#" class="blue-link">Wikipedia</a>,</h2>
+          <p>
+            the free encyclopedia that
+            <a href="#" class="blue-link">anyone can edit</a>.
+          </p>
+        </div>
+        <div class="banner-right">
+          <p>
+            <a href="#" class="blue-link">7,000,000+</a> articles in English
+          </p>
+        </div>
+      </div>
+
+      <div class="columns">
+        <div class="column">
+          <div class="box green">
+            <h3>From today's featured article</h3>
+            <div class="box-body">
+              <p>
+                This is where a short summary of today's featured article goes.
+                It is one of the best articles on Wikipedia, written and
+                reviewed by volunteers from all over the world.
+                <a href="#" class="blue-link">Read more...</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="box green">
+            <h3>Did you know ...</h3>
+            <div class="box-body">
+              <ul>
+                <li>... that a famous bridge was once painted every day?</li>
+                <li>... that a small town has more libraries than shops?</li>
+                <li>... that a rare bird was thought extinct until 2010?</li>
+                <li>
+                  ... that the oldest known recipe is over 4,000 years old?
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="box blue">
+            <h3>In the news</h3>
+            <div class="box-body">
+              <ul>
+                <li>A new space telescope sends back its first images.</li>
+                <li>A national football team wins the continental cup.</li>
+                <li>A major film festival announces its award winners.</li>
+                <li>Scientists publish a new study on ocean temperatures.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="box blue">
+            <h3>On this day</h3>
+            <div class="box-body">
+              <p class="date">October 5</p>
+              <ul>
+                <li>1962 - The first James Bond film premieres in London.</li>
+                <li>
+                  1969 - A famous British comedy show airs its first episode.
+                </li>
+                <li>
+                  2011 - A well-known technology company co-founder passes away.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="box purple">
+        <h3>Other areas of Wikipedia</h3>
+        <div class="box-body">
+          <ul>
+            <li>
+              <a href="#" class="blue-link">Community portal</a> - the central
+              hub for editors
+            </li>
+            <li>
+              <a href="#" class="blue-link">Help desk</a> - ask questions about
+              using Wikipedia
+            </li>
+            <li>
+              <a href="#" class="blue-link">Village pump</a> - discuss Wikipedia
+              itself
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <footer>
+        <ul>
+          <li><a href="#" class="blue-link">Privacy policy</a></li>
+          <li><a href="#" class="blue-link">About Wikipedia</a></li>
+          <li><a href="#" class="blue-link">Disclaimers</a></li>
+          <li><a href="#" class="blue-link">Contact Wikipedia</a></li>
+        </ul>
+        <p>
+          Text is available under the Creative Commons Attribution-ShareAlike
+          License.
+        </p>
+      </footer>
+    </div>
+
+    <div class="appearance">
+      <div class="appearance-top">
+        <h4>Appearance</h4>
+      </div>
+
+      <p class="option-title">Text</p>
+      <label><input type="radio" name="text" /> Small</label>
+      <label><input type="radio" name="text" checked /> Standard</label>
+      <label><input type="radio" name="text" /> Large</label>
+
+      <p class="option-title">Width</p>
+      <label><input type="radio" name="width" checked /> Standard</label>
+      <label><input type="radio" name="width" /> Wide</label>
+
+      <p class="option-title">Color (beta)</p>
+      <label><input type="radio" name="color" checked /> Automatic</label>
+      <label><input type="radio" name="color" /> Light</label>
+      <label><input type="radio" name="color" /> Dark</label>
+    </div>
+  </body>
+</html>
